@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Scripts</title>
+        <script>
+            function f1()
+            {
+                // DOM access
+                var ref = document.getElementById("myh1");
+
+                //date as output
+                ref.innerHTML = Date();
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Click Based -->
+         <button onclick = "f1()">Show Date</button>
+
+         <!-- event change -->
+         <button ondblclick = "f1()">Show Date1</button>
+
+         <h1 id = "myh1"></h1>
+    </body>
+</html>
