@@ -1,0 +1,13 @@
+<script>
+    //Write a program to reverse a 3-digit number without using if-else and loop.
+
+    var n=123,d1,d2,d3,reverse;
+    //d1=123/100; It will provide actual result i.e, 1.23 not there first integer as another language.
+
+    d1=parseInt(n/100); //1
+    d2=parseInt((n%100)/10); //2
+    d3=n%10; //3 If we want last digit of a number always module by 10.
+
+    reverse=d3*100+d2*10+d1;
+    document.write("Reverse= "+reverse);
+</script>

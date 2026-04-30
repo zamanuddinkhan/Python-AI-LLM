@@ -1,0 +1,11 @@
+# s = "aaabbaacdeeefg"
+# remove the duplicate values
+
+s = input("Enter a string: ")
+output = ''
+
+for x in s:
+    if x not in output:
+        output = output + x
+
+print(output)

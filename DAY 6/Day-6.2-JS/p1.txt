@@ -1,0 +1,20 @@
+Event Programming:
+
+DOM: 
+web page load -> tree like structure of each tag
+DOM is required in js for manipulations -> provides accessability 
+
+It stands For Document object Model.
+It is collection of html entities which can be accessed in js by using Dom manuplations
+Document is globle object of dom.
+
+default event: onload
+click based event: onclick, ondblclick.
+mouse based event: onmouseenter, onmouseleave,
+key based event onkeyup, onkeydown, onkeypress.
+
+Access types :-
+1) by tag name
+2) by id name
+3) by class name
+

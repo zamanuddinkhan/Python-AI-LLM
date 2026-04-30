@@ -1,0 +1,18 @@
+<!-- Write a program to reverse a 3-digit without using conditional statements(if - else) and in built methods -->
+
+<script>
+    var a, d1, d2, d3;
+
+    a = 123;  //Break the number into individual digits
+
+    d1 = parseInt(a / 100);              //1
+    d2 = parseInt((a % 100) / 10);       //3
+    d3 = a % 10;                         //2
+
+
+    //change place values
+    a_reverse = d3 * 100 + d2 * 10 + d1 * 1;
+
+    document.write("Reverse = "+a_reverse)
+
+</script>

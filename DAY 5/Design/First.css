@@ -1,0 +1,40 @@
+#container{
+    height: 660px;
+    background-color: rgb(230, 24, 144);
+}
+
+#header{
+    height: 20%;
+    background: royalblue;
+    text-align: center;
+}
+
+#nav{
+    height: 10%;
+    background: brown;
+    text-align: center;
+}
+
+#content{
+    height: 55%;
+}
+
+#main{
+    background-color: #fff;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+#sidebar{
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    float: right;
+}
+
+#footer{
+    height: 15%;
+    background-color: rgb(80, 80, 183);
+    text-align: center;
+}

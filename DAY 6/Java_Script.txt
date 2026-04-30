@@ -1,0 +1,63 @@
+JavaScript: Important for designing end. It is the client side script used to apply dynamic changes on web pages. It is fully Object Oriented Programming.
+Like: Event Programming, Limitations and Validations.
+OR
+It is  event based script, used to apply dynamic changes on web page. where event refers to activity which will be performed on web page to get dynamic changes & this event will leads to access specific functionality.
+
+Difference Between: Programming Language and Script Language
+Programming: First Compile then execute.
+Script: Directly execute in Browser[HTML, CSS, JavaScript]
+
+1.Variable[Reference Variable]: It is the storage for the execution of program.
+Syntax: var Variable_Name=value;
+        var a=100; here var=Varient
+        var d=100; here both a and d have same value 100 so in memory it will directly go to memory of a in place of creating another memory of d.
+
+There are three types of Primitive Data Types:
+1. Number: 12,3.14[All Number]
+2. String: 'A','Hello'[All Character]
+3. Boolean: Ture, False
+
+User Defined Data Types:
+1. Array: 
+2. Object: 
+
+For TypeCasting JavaScript have multpiple ways
+1. ParseInt(123)
+
+There are three types of loop:
+1. For
+Syntax: for(initialization, condition, inc/dec)
+        {
+            statement;
+        }
+
+2. While
+Syntax: initialization;
+        while(condition)
+        {
+            statement;
+            inc/dec;
+        }
+
+3. Do-While
+Syntax: initilization;
+        do{
+            statement;
+            inc/dec;
+        }while(condition);
+
+Function: 
+Syntax: Default Function:
+        Function Function_Name(arguments)
+        {
+            statement
+            return arguments
+        }
+        Calling Syntax:
+        Function_Name(arguments);
+
+There are four types of function on the basis of arguments and return:
+1. No Arguments & no return value.
+2. No Arguments & with return value.
+3. With Arguments & no return value.
+4. With Arguments & with return value.

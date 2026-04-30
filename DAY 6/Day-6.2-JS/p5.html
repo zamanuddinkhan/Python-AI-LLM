@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Scripts</title>
+    <script>
+        function zoomIn() {
+            var ref = document.getElementsByTagName("img"); // returns img tag's collection of object
+            // alert(ref)
+            ref[0].height += 50; //ref is object of img type
+            ref[0].width += 50;  //ref[0] -> 1st image
+        }
+        function zoomOut() {
+            var ref = document.getElementsByTagName("img");
+            ref[0].height -= 50;
+            ref[0].width -= 50;
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Click Based -->
+    <button onclick="zoomIn()">ZoomIn</button>
+    <button ondblclick="zoomOut()">zoomOut</button>
+    <br><br>
+    <img src="/Day-4.2-HTML/maple.png" height="100px" width="100px">
+</body>
+
+</html>

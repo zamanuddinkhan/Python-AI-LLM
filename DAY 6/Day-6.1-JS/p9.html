@@ -1,0 +1,43 @@
+<!-- Function : block of code , returns value as required, executes one called
+Types(based on arguments and return type)
+1) no arguments & no return value
+2) no arguments & with return value
+3) with arguments & no return value
+4) with arguments & with return value
+
+Syntax:
+function fun_name(args)
+{
+    statmnts
+    return args
+}
+
+in js no function declaration -> only definition and calling
+-->
+
+<script>
+    //Defining functions
+    function one(){
+        document.write("no arguments & no return value"+"<br>");
+    }
+    function two(){
+        document.write("no arguments & with return value"+"<br>");
+        return 2;
+    }
+    function three(a, b){
+        sum = a+b;
+        document.write("Sum = ",sum+"<br>");
+        document.write("with arguments & no return value"+"<br>");
+    }
+    function four(a, b, c){
+        document.write("with arguments & with return value"+"<br>");
+        sum = a+b+c;
+        return sum;
+    }
+
+    //Function calling
+    one();
+    document.write(two()+"<br>");
+    three(2,3);  //formal parameters
+    document.write(four(1,2,3)+"<br>");
+</script>

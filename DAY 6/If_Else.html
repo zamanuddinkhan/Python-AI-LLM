@@ -1,0 +1,47 @@
+
+<!-- Write a program to find the grades of a student on the basis of its percentage according to following criteria using if-else statements 
+    1. >=90 [A+]
+    2. >=80 and <90 [A]
+    3. >=70 and <80 [B+]
+    4.>=60 and <70 [B]
+    5. >=50 and <60 [C+]
+    6. >=45 and <50 [C]
+    7. <45 [D]-->
+
+<script>
+    var h=91,e=85,m=93,p=75,c=73,t,a;
+
+    t=h+e+m+p+c;
+    a=t/5;
+    document.write("Sum= "+t+"<br>");
+    document.write("Aveage= "+a+"<br>");
+
+    if(a>=90 && a<=100)
+    {
+        document.wrie("A+");
+    }
+    else if(a>=80 && a<90)
+    {
+        document.write("A");
+    }
+    else if(a>=70 && a<80)
+    {
+        document.write("B+");
+    }
+    else if(a>=60 && a<70)
+    {
+        document.write("B");
+    }
+    else if(a>=50 && a<60)
+    {
+        document.write("C+");
+    }
+    else if(a>=45 && a<50)
+    {
+        document.write("C");
+    }
+    else
+    {
+        document.write("D");
+    }
+</script>
