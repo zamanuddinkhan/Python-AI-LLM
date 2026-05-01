@@ -1,0 +1,18 @@
+For Regular expression Librabies:
+Website: https://regexlib.com/
+
+TASK: Make Form=All Fields are required
+Name
+Email
+Mobile No: 10 digit only
+Username: 1 Capital letter & special symbol
+Password: 6 Digit
+if anything is Incorrect then form is Invalid message
+
+DBMS: Data Base Management System
+RDBMS: Relational Data Base Management System: Multiple Table attach with the help of Primary key and forign key
+
+D/B
+Primary: Store Null
+composite Key: More than one primary key
+Unique Key: Not Store Null

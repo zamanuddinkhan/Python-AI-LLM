@@ -1,0 +1,35 @@
+Javascript: it's client side script used to apply dynamic changes on web page, like event programming, animations, validations(user restriction) etc.
+
+It is an event based script, used to apply dynamic changes on web page, where event refers to activity which will be performed on web page to get dynamic changes and this event will leads to access specific functionality.
+
+Script: execution->not compliled  -> execute directly on browser -> interpreted
+Program: compile -> execution
+
+Variables: storage -> used to store value for the execution of program -> stores data
+In JS Variables are known as Reference Variables
+var var_name = value;
+var a = 100;
+var stands for variant -> can store different types of data.
+
+JS -> fully object oriented
+
+variables, functions etc -> references
+
+Why variables are known as References?
+In c :  a = 2 , b = 2 , here both a and b will have different memory
+In JS :  a = 2 , b = 2 , here both a and b will refer to same memory(where 2(data) is stored) -> intelligent interpreter
+
+
+Data types are managed internally in JS:
+
+Primary data types
+1) number
+2) string
+3) boolean
+
+User data types
+1) Array
+2) Object
+
+client side scripting -> .html extension
+server side scripting -> .js extension

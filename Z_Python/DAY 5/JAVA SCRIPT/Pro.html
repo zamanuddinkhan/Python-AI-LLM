@@ -1,0 +1,53 @@
+<html>
+    <!-- &nbsp; New Blank Space -->
+    <body onload="msg()">
+        <input type="text" id="t1" /><br><br>
+        <input type="text" id="t2" /><br><br>
+        <input type="text" id="t3" /><br><br>
+        <button onclick="calci(1)">ADD</button>&nbsp;&nbsp;&nbsp;
+        <button onclick="calci(2)">SUB</button>&nbsp;&nbsp;&nbsp;
+        <button onclick="calci(3)">MUl</button>&nbsp;&nbsp;&nbsp;
+        <button onclick="calci(4)">DIV</button>&nbsp;&nbsp;&nbsp;
+        <button onclick="calci(5)">MOD</button>&nbsp;&nbsp;&nbsp;
+        <button onclick="clearFields()">CLEAR</button>
+        <script>
+            function msg()
+            {
+                alert("This is My First JS Code");
+            }
+            function calci(ch)
+            {
+                var x=parseInt(document.getElementById("t1").value);
+                var y=parseInt(document.getElementById("t2").value);
+                var t3
+                switch(ch)
+                {
+                    case 1:
+                    result=x+y;
+                    break;
+                    case 2:
+                    result=x-y;
+                    break;
+                    case 3: 
+                    result=x*y;
+                    break;
+                    case 4:
+                    result=x/y;
+                    break;
+                    case 5:
+                    result=x%y;
+                    break;
+                    default:
+                    result="Invalid Operation";
+                }
+                document.getElementById("t3").value = result;
+            }
+                function clearFields() 
+                {
+                    document.getElementById("t1").value = "";
+                    document.getElementById("t2").value = "";
+                    document.getElementById("t3").value = "";
+                }
+        </script>
+    </body>
+</html>

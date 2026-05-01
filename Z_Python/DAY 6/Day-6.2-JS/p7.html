@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <script>
+        function validate()
+        {
+            var name,
+            name = document.getElementById("name").value;
+            err1 = document.getElementById("err1");
+
+            if(name == "")
+        {
+            err1.innerHTML = "*Name is required";
+            err1.style.color(red)
+        }
+        else{
+            err1.innerHTML = "*Name is required";
+        }
+
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <label>Name</label>
+        <input type="text" id="name" onkeyup="onlyChar()"> //onkeyup: read data in Input field
+        <span id="err1"></span>
+        <br><br>
+        <button onclick="return validate()">Register</button>
+    </form>
+</body>
+
+</html>
