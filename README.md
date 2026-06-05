@@ -10,7 +10,6 @@ This repository contains structured learning materials and notes from a comprehe
 
 ### 1. 🐍 Python Fundamentals
 
-* Python setup (Anaconda, VS Code, Jupyter)
 * Syntax, variables, data types, type casting
 * Control flow (if-else, loops, operators)
 * Data structures (lists, tuples, dictionaries, sets)
