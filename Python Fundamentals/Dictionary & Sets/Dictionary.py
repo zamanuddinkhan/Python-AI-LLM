@@ -43,6 +43,34 @@ print("\nFirst Item:", list(student.items())[0])
 #     {"a": 1}: "Dict"     # Error
 # }
 
-# We can change Values in Dictionary. Thus Previous value is overwrittern by New one.
+# We can change values in a dictionary. The previous value is overwritten by the new value.
 student["Pi"] = 3
-print("After Change Pi value is ", student["Pi"])
+print("\nAfter changing Pi, the value is:", student["Pi"])
+
+# We can also create an empty dictionary.
+null_dict = {}
+print("\n", type(null_dict))
+null_dict["Location"] = "Bangalore"
+print(null_dict)
+
+# Nested Dictionary
+
+student = {
+    "name": "Karan",
+    "subjects": {
+        "Maths": 88,
+        "Physics": 90,
+        "Chemistry": 77
+    }
+}
+
+print("\n", student)
+
+# Access all subject marks
+print("All Subjects Marks:", student["subjects"])
+
+# Access Maths marks only
+print("Maths Marks:", student["subjects"]["Maths"])
+
+# Methods In Dictionary
+
