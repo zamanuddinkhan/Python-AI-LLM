@@ -1,5 +1,6 @@
 # Write a Program to check if a List cotains a Palindrome of elements. HINT: Use Copy() Method
 # A palindrome number is a number that remains the same when its digits are reversed. Ex: 121, 111, 12455421
+# FLOW: Number -> Copy It -> Reverse -> Number
 
 Number = [1,2,3,2,1]
 Copied_Number = Number.copy()
