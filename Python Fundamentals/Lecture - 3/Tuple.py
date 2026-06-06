@@ -53,7 +53,7 @@ print("Type:", type(tuple_b))
 
 # Tuple Slicing
 print("\nSlicing Example:")
-print(tuple_a[:-1])   # Returns all elements except the last one
+print(tuple_a[::-1])   # Reverse all elements
 
 # Tuple Immutability
 # Tuples are immutable, meaning their values cannot be changed after creation.
@@ -61,3 +61,12 @@ print(tuple_a[:-1])   # Returns all elements except the last one
 # tuple_a[0] = 101   # Error: 'tuple' object does not support item assignment
 
 print("\nTuples are immutable (cannot be modified).")
+
+# Tuple Methods
+tup = (1, 2, 5, 8, 7, 9, 5, 1, 2, 1, 5)
+
+# count() returns the number of occurrences of a value
+print("Count of 1:", tup.count(1))
+
+# index() returns the index of the first occurrence of a value
+print("Index of 5:", tup.index(5))
