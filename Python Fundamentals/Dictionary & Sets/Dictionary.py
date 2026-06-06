@@ -8,6 +8,8 @@ Properties:
 4. Duplicate values are allowed
 5. Dictionary keys must be Immutable.
 6. Therefore, List, Set, and Dictionary cannot be used as keys.
+7. Values can be of any data type.
+8. Keys are case-sensitive.
 """
 
 student = {
@@ -55,7 +57,7 @@ print(null_dict)
 
 # Nested Dictionary
 
-student = {
+nested_student = {
     "name": "Karan",
     "subjects": {
         "Maths": 88,
@@ -64,13 +66,32 @@ student = {
     }
 }
 
-print("\n", student)
+print("\n", nested_student)
 
 # Access all subject marks
-print("All Subjects Marks:", student["subjects"])
+print("\nAll Subjects Marks:", nested_student["subjects"])
 
 # Access Maths marks only
-print("Maths Marks:", student["subjects"]["Maths"])
+print("Maths Marks:", nested_student["subjects"]["Maths"])
 
-# Methods In Dictionary
+# Methods in Dictionary
 
+print("\nAll Keys:", nested_student.keys())  # Returns all keys
+
+# By Type Casting
+print("\nBy Type Casting:", list(nested_student.keys()))  # Converts keys to a list
+
+print("\nAll Values:", nested_student.values())  # Returns all values
+
+print("\nAll Items:", nested_student.items())  # Returns all (key, value) pairs as tuples
+pairs = list(nested_student.items())
+print(pairs[0]) # Access Individually
+
+# print(student["name2"]) # Return ERROR
+print("\n", nested_student.get("name2")) # Return None, Because after this if code is correct then it can run
+
+print("\nName:", nested_student.get("name"))  # Returns the value of the specified key
+
+nested_student.update({"City": "Indore"})  # Adds or updates key-value pairs
+
+print("\nUpdated Dictionary:", nested_student)
