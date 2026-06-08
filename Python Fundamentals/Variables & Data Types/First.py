@@ -1,4 +1,4 @@
-#To Change Line using print() or "\n" 
+# To Change Line using print() or "\n" 
 print("Hello World")
 print("Welcome to Python Programming Language")
 
@@ -17,20 +17,20 @@ b=20
 print("Sum is", a+b)
 print() #To Change Line
 
-#Type Casting - Manually Change one data type into another
+# Type Casting - Manually Change one data type into another
 a = "10"
 c = int(a)
 b = 20
-print(c+b, "\n") #To Change Line ["\n"]
+print(c+b, "\n") # To Change Line ["\n"]
 
-#Take Input From User
+# Take Input From User
 name = input("Enter Your Name: ")
 print("Welcome" , name)
 print(type(name), "\n") 
 
 pi = input("Enter Value of Pi: ")
 print("Pi" , pi)
-print(type(pi), "\n") #By Default type is str always because we do not write manually
+print(type(pi), "\n") # By Default type is str always because we do not write manually
 
 # For Specific Type of data use Type Casting
 n = int(input("Enter Number: "))
