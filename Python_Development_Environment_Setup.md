@@ -49,6 +49,9 @@ py -m pip show python-dotenv
 # To See All Installed Packages
 py -m pip list
 
+# Check Installed Packages
+py -m pip freeze
+
 # To Check for Outdated Packages
 py -m pip list --outdated
 
