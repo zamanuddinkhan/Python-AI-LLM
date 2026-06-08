@@ -13,7 +13,7 @@ print("After Add: ", collection)
 collection.remove(10)
 print("After Remove: ", collection)
 
-collection.pop()
+collection.pop() # Removes a random element
 print("After Pop: " ,collection)
 
 copy = collection.copy() # Copy() creates a shallow copy of the original one
@@ -25,14 +25,11 @@ print(collection, "\n")
 a = {1,2,3}
 b = {3,4,5,6}
 
-a.union(b) # All unique elements
-print("After Union: " ,a)
+print("Union:", a.union(b)) # All unique elements
 
-a.intersection(b) # Common elements
-print("After Intersection: " ,a)
+print("Intersection:", a.intersection(b)) # Common elements
 
-a.difference(b) # Elements in A but not in B
-print("After Difference: " ,a)
+print("Difference:", a.difference(b)) # Elements in A but not in B
 
 a.update(b) # Adds B's elements into A
 print("After Update: " ,a)
