@@ -7,7 +7,7 @@ print(len(collection), "\n")
 
 # Methods In Set
 
-collection.add(10)
+collection.add(10) # Add an element
 print("After Add: ", collection)
 
 collection.remove(10)
