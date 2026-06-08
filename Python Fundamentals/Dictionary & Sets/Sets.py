@@ -10,7 +10,7 @@ print(len(collection), "\n")
 collection.add(10) # Add an element
 print("After Add: ", collection)
 
-collection.remove(10)
+collection.remove(10) # Remove an element (error if absent)
 print("After Remove: ", collection)
 
 collection.pop() # Removes a random element
