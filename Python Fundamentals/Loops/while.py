@@ -9,3 +9,9 @@ count = 1
 while count <= 5:
     print("Hello World")
     count += 1
+
+# Check Counting as well
+i = 1
+while i <= 1000:
+    print("Zamanuddin Khan", i)
+    i = i + 1
