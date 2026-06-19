@@ -5,6 +5,7 @@ n = int(input("Enter Number: "))
 i = 0
 
 while i < len(t):
+    print("Searching....")
     if t[i] == n:
         print("Number Exists at idx: ", i)
         break
