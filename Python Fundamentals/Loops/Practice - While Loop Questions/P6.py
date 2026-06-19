@@ -4,9 +4,9 @@ t = (1,4,9,16,25,36,49,64,81,100)
 n = int(input("Enter Number: "))
 i = 0
 
-while i < 10:
+while i < len(t):
     if t[i] == n:
-        print("Number Exists:", t[i])
+        print("Number Exists at idx: ", i)
         break
     i += 1
 else:
