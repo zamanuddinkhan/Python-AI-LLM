@@ -15,18 +15,6 @@ list = ["Apple", "Banana", "Orange", "Grapes", "Litchi"]
 for i in list:
     print(i)
 
-print("\nWhole Number")
-for i in range(3): # 3 not Included
-    print(i)
-
-print("\nNatural Number")
-for i in range(1,5): # 1 Included
-    print(i)
-
-print("\nOdd Number")
-for i in range(1,10,2): # Jump by every 2 value
-    print(i)
-
 print("\nIterate Through a String")
 for i in "Python":
     print(i)
@@ -38,3 +26,21 @@ for i in range(5):
     print(i)
 else:
     print("Loop Completed")
+
+"""
+Range Function: It returns a sequence of numbers starting from 0 by default
+                and increments by 1 (default), and stops before a specified number.
+Syntax: range(START, STOP, STEP)
+"""
+
+print("\nWhole Number")
+for i in range(3): # 3 not Included
+    print(i)
+
+print("\nNatural Number")
+for i in range(1,5): # 1 Included
+    print(i)
+
+print("\nOdd Number")
+for i in range(1,10,2): # Jump by every 2 value
+    print(i)
