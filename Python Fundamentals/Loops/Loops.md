@@ -2,20 +2,51 @@
 
 There are two main kinds of loops in Python:
 
-1. while: Runs as long as a condition is True.
+1. while: A while loop executes a block of code as long as a condition is True.
    (Used when you don't know how many times to iterate)
 
 Syntax:
 while condition:
     # code block
 
+# Flow of a While Loop
 
-2. for: Used when you know how many times to iterate
-   or when looping through a collection.
+Start
+  ↓
+Initialize Variable
+  ↓
+Check Condition
+  ↓
+True ? ── No ──→ Exit
+  ↓ Yes
+Execute Body
+  ↓
+Update Variable
+  ↓
+Back to Condition
+
+2. for: A for loop is used to iterate (repeat) over a sequence such as a list, tuple, string, range, or other iterable objects.
+   Used when you know how many times to iterate or when looping through a collection.
 
 Syntax:
 for variable in sequence:
     # code block
+
+# Flow of a For Loop:
+
+Start
+  ↓
+Get Sequence
+  ↓
+Take First Element
+  ↓
+Execute Loop Body
+  ↓
+Next Element Available?
+  ├─ Yes → Repeat Loop
+  └─ No  → Exit
+  ↓
+End
 
 
 --> range() Function: Generates a sequence of numbers.
