@@ -58,9 +58,10 @@ for variable in range(start, stop, step):
 
 # Statement	Output
 
-range(5)	      -    0, 1, 2, 3, 4
-range(1, 6)	      -    1, 2, 3, 4, 5
-range(1, 10, 2)	  -    1, 3, 5, 7, 9
+range(5)	         -    0, 1, 2, 3, 4
+range(1, 6)	       -    1, 2, 3, 4, 5
+range(1, 10, 2)	   -    1, 3, 5, 7, 9
+range(10, 0, -1)   -    10, 9, 8, 7, 6, 5, 4, 3, 2, 1
 
 # There is no do-while loop in Python.
     It can be simulated using a while True loop with a break.
@@ -96,6 +97,11 @@ for/while condition:
 Syntax:
 for/while condition:
     pass
+
+# Use: Without pass, Python gives an error because blocks cannot be empty.
+INCORRECT - if True:
+CORRECT - if True:
+              pass
 
 
 # Nested Loops: A loop inside another loop.
