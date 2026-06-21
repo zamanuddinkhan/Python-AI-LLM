@@ -155,3 +155,77 @@ def add(a, b):
 
 print(add(10, 20))
 ```
+
+# Default Parameter in Python
+
+A **default parameter** is a parameter that has a predefined value. If no argument is passed for that parameter when calling the function, the default value is used.
+
+---
+
+## Way 1: All Parameters Have Default Values
+
+```python
+def calc_prod(a=1, b=2):
+    print(a * b)
+    return a * b
+
+calc_prod()
+```
+
+---
+
+## Way 2: Mandatory Parameter Followed by a Default Parameter
+
+```python
+def calc_prod(a, b=2):
+    print(a * b)
+    return a * b
+
+calc_prod(1)
+```
+
+---
+
+## Not Possible
+
+A non-default parameter cannot follow a default parameter.
+
+```python
+def calc_prod(a=2, b):
+    print(a * b)
+    return a * b
+
+calc_prod(1)
+```
+
+---
+
+## Correct Way
+
+Place all mandatory parameters before default parameters.
+
+```python
+def calc_prod(b, a=2):
+    print(a * b)
+    return a * b
+
+calc_prod(1)
+```
+
+---
+
+## Rule
+
+```python
+def function_name(mandatory_parameters, default_parameter=value):
+    pass
+```
+
+---
+
+## Important Points
+
+- Default parameters have predefined values.
+- If no argument is passed, the default value is used.
+- Mandatory (non-default) parameters must come before default parameters.
+- A non-default parameter cannot follow a default parameter.
