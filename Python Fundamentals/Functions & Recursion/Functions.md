@@ -112,3 +112,46 @@ print(square(5))
 * Parameters receive input values.
 * `return` sends a value back to the caller.
 * Functions help make code reusable and organized.
+
+# Types of Functions in Python
+
+There are **two main types of functions** in Python:
+
+## 1. Built-in Functions
+
+These functions are available by default in Python.
+
+### Common Built-in Functions
+
+* `print()`
+* `input()`
+* `len()`
+* `type()`
+* `abs()`
+* `sum()`
+* `max()`
+* `min()`
+
+---
+
+## 2. User-defined Functions
+
+These functions are created by the programmer using the `def` keyword.
+
+### Example
+
+```python
+def greet():
+    print("Good Morning")
+
+greet()
+```
+
+### Example with Parameters
+
+```python
+def add(a, b):
+    return a + b
+
+print(add(10, 20))
+```
