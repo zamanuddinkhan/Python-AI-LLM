@@ -1,4 +1,5 @@
 """
+Recurrence Relation:
 A recurrence relation is an equation that defines a sequence using one or more of its previous terms.
 
 In simple words, the current value depends on previous value(s).
