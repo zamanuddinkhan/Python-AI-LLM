@@ -28,3 +28,15 @@ def recursive_sum(n):
 
 n = int(input("\nEnter Number: "))
 print("Sum of",n, "Number is:",recursive_sum(n))
+
+# Prints N to 1 Backwards
+def show(n):
+    if n == 0:  # Base case
+        return
+
+    print(n)
+    show(n - 1)  # Recursive call
+
+
+n = int(input("Enter a number: "))
+show(n)
