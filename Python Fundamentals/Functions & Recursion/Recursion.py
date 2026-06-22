@@ -8,7 +8,8 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)  # Recursive case
 
-print(factorial(5))
+n = int(input("Enter Number: "))
+print("Factorial of",n, "is:",factorial(n))
 
 # Fibonacci
 def fibonacci(n):
@@ -16,7 +17,8 @@ def fibonacci(n):
         return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(fibonacci(6))
+n = int(input("\nEnter Number: "))
+print("Fibonacci of",n, "is:",fibonacci(n))
 
 # Sum of N Number
 def recursive_sum(n):
@@ -24,4 +26,5 @@ def recursive_sum(n):
         return 1
     return n + recursive_sum(n - 1)
 
-print(recursive_sum(5))
+n = int(input("\nEnter Number: "))
+print("Sum of",n, "Number is:",recursive_sum(n))
