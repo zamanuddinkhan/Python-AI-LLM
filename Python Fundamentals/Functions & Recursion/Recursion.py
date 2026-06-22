@@ -2,7 +2,7 @@
 Recursion: Recursion is a programming technique where a function calls itself 
 to solve a problem by breaking it into smaller subproblems.
 """
-
+# Factorial
 def factorial(n):
     if n == 0:      # Base case
         return 1
@@ -10,6 +10,7 @@ def factorial(n):
 
 print(factorial(5))
 
+# Fibonacci
 def fibonacci(n):
     if n <= 1:
         return n
@@ -17,6 +18,7 @@ def fibonacci(n):
 
 print(fibonacci(6))
 
+# Sum of N Number
 def recursive_sum(n):
     if n == 1:
         return 1
