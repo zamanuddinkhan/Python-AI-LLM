@@ -1,22 +1,22 @@
-# Verify Python Version
+## Verify Python Version
 py --version
 
-# Verify pip Version
+## Verify pip Version
 py -m pip --version
 
-# Upgrade pip
+## Upgrade pip
 py -m pip install --upgrade pip
 
-# Create Virtual Environment for Libraries Like: [OpenAI, LangChain, LangGraph, CrewAI, FastAPI, Uvicorn]
+## Create Virtual Environment for Libraries Like: [OpenAI, LangChain, LangGraph, CrewAI, FastAPI, Uvicorn]
 py -m venv venv
 
-# Activate Virtual Environment (CMD)
+## Activate Virtual Environment (CMD)
 venv\Scripts\activate
 
-# Deactivate Virtual Environment After Use
+## Deactivate Virtual Environment After Use
 deactivate
 
-# To Install It
+## To Install It
 py -m pip install numpy
 py -m pip install pandas
 py -m pip install matplotlib
@@ -31,7 +31,7 @@ py -m pip install fastapi
 py -m pip install uvicorn
 py -m pip install python-dotenv
 
-# To Verify It
+## To Verify It
 py -m pip show numpy
 py -m pip show pandas
 py -m pip show matplotlib
@@ -46,29 +46,29 @@ py -m pip show fastapi
 py -m pip show uvicorn
 py -m pip show python-dotenv
 
-# To See All Installed Packages
+## To See All Installed Packages
 py -m pip list
 
-# Check Installed Packages
+## Check Installed Packages
 py -m pip freeze
 
-# To Check for Outdated Packages
+## To Check for Outdated Packages
 py -m pip list --outdated
 
-# To Upgrade a Package
+## To Upgrade a Package
 py -m pip install --upgrade numpy
 
-# To Save Project Dependencies
+## To Save Project Dependencies
 py -m pip freeze > requirements.txt
 
-# To Install Dependencies from requirements.txt
+## To Install Dependencies from requirements.txt
 py -m pip install -r requirements.txt
 
-# Uninstall a Package
+## Uninstall a Package
 py -m pip uninstall numpy
 
-# Install Specific Version
+## Install Specific Version
 py -m pip install numpy==2.3.0
 
-# Upgrade All Packages (manual process)
+## Upgrade All Packages (manual process)
 py -m pip list --outdated
