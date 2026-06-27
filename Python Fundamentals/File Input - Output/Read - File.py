@@ -2,10 +2,13 @@
 
 # f = open("Python Fundamentals\File Input - Output\demo.txt", "r")
 # or
-f = open("Python Fundamentals\File Input - Output\demo.txt", "rt")
+f = open(r"Python Fundamentals\File Input - Output\demo.txt", "rt")
+
 data = f.read()
+print("Entire file content:")
 print(data)
-print(type(data))
+print("Data type:", type(data))
+
 f.close()
 
 # OR (Better Way)
@@ -13,12 +16,41 @@ f.close()
 # Also, use the 'with' statement so the file is closed automatically.
 with open(r"Python Fundamentals\File Input - Output\demo.txt", "rt") as f:
     data = f.read()
-    print("\n",data)
-    print(type(data))
+    print("\nEntire file content using 'with':")
+    print(data)
+    print("Data type:", type(data))
 
-# If i want to read specific characters
+# Ways to Read a File
+
+# Read specific characters
 f = open(r"Python Fundamentals\File Input - Output\demo.txt", "rt")
-data = f.read(5) # The read(n) method reads the first n characters from the file.
-print("\n",data)
-print(type(data))
+
+data = f.read(5)  # Reads the first 5 characters from the file.
+print("\nFirst 5 characters:")
+print(data)
+print("Data type:", type(data))
+
+f.close()
+
+# Read one line at a time
+f = open(r"Python Fundamentals\File Input - Output\demo.txt", "rt")
+
+data = f.readline()  # Reads the first line.
+print("\nFirst line:")
+print(data)
+print("Data type:", type(data))
+
+f.close()
+
+# Use read() and readline() together
+f = open(r"Python Fundamentals\File Input - Output\demo.txt", "rt")
+
+data = f.read()
+print("\nEntire file content:")
+print(data)
+
+line = f.readline()
+print("\nOutput of readline() after read():")
+print(line)  # Returns an empty string because read() has already read the entire file.
+
 f.close()
