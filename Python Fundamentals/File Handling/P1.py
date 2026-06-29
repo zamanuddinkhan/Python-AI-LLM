@@ -20,3 +20,12 @@ f = open("Python Fundamentals\File Handling\practice.txt","w")
 f.write(new_data)
 f.close()
 
+# Search if the word "learning" exists in the file or not.
+word = "Learning"
+f = open("Python Fundamentals\File Handling\practice.txt","r")
+data = f.read()
+if(data.find(word) !=-1):
+    print("Found")
+else:
+    print("Not Found")
+f.close()
