@@ -9,3 +9,14 @@ f = open("Python Fundamentals\File Handling\practice.txt", "w")
 f.write("Hi everyone\nI am Learning File I/O\nusing C\nI like programming in C.")
 f.close()
 
+# Que:1 WAF that replace all occurrences of "C" with "Python" in practice.txt.
+f = open("Python Fundamentals\File Handling\practice.txt","r")
+data = f.read()
+new_data = data.replace("C","Python")
+print(new_data)
+f.close()
+
+f = open("Python Fundamentals\File Handling\practice.txt","w")
+f.write(new_data)
+f.close()
+
