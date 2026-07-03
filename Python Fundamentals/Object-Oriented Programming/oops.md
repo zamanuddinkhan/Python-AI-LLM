@@ -52,3 +52,235 @@ Other important concepts include:
 - super() function
 
 ---
+
+# Class
+
+## Definition
+
+A **class** is a blueprint or template used to create objects. It defines the properties (attributes) and behaviors (methods) that the objects created from it will have.
+
+A class itself does not occupy memory for actual data until an object is created.
+
+### Characteristics
+
+- Blueprint of an object
+- Defines attributes and methods
+- Can create multiple objects
+- Improves code organization
+
+### Syntax
+
+```python
+class ClassName:
+    # attributes
+    # methods
+```
+
+---
+
+# Object
+
+## Definition
+
+An **object** is an instance of a class. It is the actual entity that occupies memory and can access the properties and methods defined in the class.
+
+Every object has:
+
+- Identity
+- State
+- Behavior
+
+### Characteristics
+
+- Created from a class
+- Stores actual data
+- Can call methods
+- Each object has its own state
+
+### Syntax
+
+```python
+object_name = ClassName()
+```
+
+---
+
+# Difference Between Class and Object
+
+| Class | Object |
+|--------|---------|
+| Blueprint | Instance of class |
+| Logical entity | Physical entity |
+| Does not occupy memory for data | Occupies memory |
+| Used to create objects | Created from a class |
+| Defines structure | Represents actual data |
+
+---
+
+# Constructor
+
+## Definition
+
+A constructor is a special method that is automatically executed whenever an object is created.
+
+In Python, the constructor is named:
+
+```python
+__init__()
+```
+
+Its primary purpose is to initialize the object's data.
+
+### Characteristics
+
+- Automatically called
+- Initializes object variables
+- Executes only once during object creation
+- Can accept parameters
+
+### Syntax
+
+```python
+def __init__(self, parameters):
+    # initialization
+```
+
+---
+
+# self Keyword
+
+## Definition
+
+The **self** keyword refers to the current object of the class.
+
+It allows an object to access its own variables and methods.
+
+### Why self is Required
+
+- Represents the current instance
+- Accesses instance variables
+- Calls instance methods
+- Distinguishes object variables from local variables
+
+### Syntax
+
+```python
+self.variable_name
+self.method_name()
+```
+
+---
+
+# Variables in Python OOP
+
+## Instance Variable
+
+### Definition
+
+Instance variables belong to individual objects.
+
+Every object has its own copy of instance variables.
+
+### Characteristics
+
+- Created inside constructor
+- Different for every object
+- Stored separately
+
+### Syntax
+
+```python
+self.variable_name = value
+```
+
+---
+
+## Class Variable
+
+### Definition
+
+A class variable belongs to the class itself instead of individual objects.
+
+It is shared among all objects.
+
+### Characteristics
+
+- Same value for every object
+- Defined inside class but outside methods
+- Uses less memory
+
+### Syntax
+
+```python
+class ClassName:
+    variable_name = value
+```
+
+---
+
+# Methods
+
+## Definition
+
+Methods are functions defined inside a class.
+
+They describe the behavior of objects.
+
+---
+
+## Instance Method
+
+### Definition
+
+Instance methods work with object-specific data.
+
+They require the **self** parameter.
+
+### Syntax
+
+```python
+def method_name(self):
+    pass
+```
+
+---
+
+## Class Method
+
+### Definition
+
+A class method works with class variables instead of object variables.
+
+It uses the **@classmethod** decorator.
+
+The first parameter is **cls**.
+
+### Syntax
+
+```python
+@classmethod
+def method_name(cls):
+    pass
+```
+
+---
+
+## Static Method
+
+### Definition
+
+A static method does not depend on either object data or class data.
+
+It behaves like a normal function placed inside a class.
+
+Uses the **@staticmethod** decorator.
+
+### Syntax
+
+```python
+@staticmethod
+def method_name():
+    pass
+```
+
+---
