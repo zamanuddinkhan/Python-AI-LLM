@@ -30,3 +30,12 @@
 
 15. What is an abstract class? What is an abstract method?
 
+16. What is the purpose of the `super()` function?
+
+17. What are magic (dunder) methods? Name some commonly used ones.
+
+18. What is the difference between `==` and `is` in Python?
+
+19. What is the Method Resolution Order (MRO)? How does Python resolve methods in multiple inheritance?
+
+20. What is the difference between inheritance and composition? When would you use each?
