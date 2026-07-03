@@ -10,3 +10,13 @@
 
 5. What is the `self` keyword in Python? Why is it required?
 
+6. What is the difference between an instance variable and a class variable?
+
+7. What is the difference between an instance method, class method, and static method?
+
+8. What is encapsulation? How is it implemented in Python?
+
+9. Explain public, protected, and private members in Python.
+
+10. What is inheritance? What are its advantages?
+
