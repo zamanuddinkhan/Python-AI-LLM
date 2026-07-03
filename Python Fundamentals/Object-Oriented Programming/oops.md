@@ -345,3 +345,61 @@ __variable
 ```
 
 ---
+
+# Inheritance
+
+## Definition
+
+Inheritance allows one class to acquire the properties and methods of another class.
+
+The existing class is called the **Parent (Base) Class**.
+
+The new class is called the **Child (Derived) Class**.
+
+### Advantages
+
+- Code reuse
+- Reduced duplication
+- Easy maintenance
+- Better organization
+
+### General Syntax
+
+```python
+class ChildClass(ParentClass):
+    pass
+```
+
+---
+
+# Types of Inheritance
+
+## 1. Single Inheritance
+
+One child inherits from one parent.
+
+---
+
+## 2. Multiple Inheritance
+
+One child inherits from multiple parents.
+
+---
+
+## 3. Multilevel Inheritance
+
+A child inherits from another child class.
+
+---
+
+## 4. Hierarchical Inheritance
+
+Multiple child classes inherit from one parent.
+
+---
+
+## 5. Hybrid Inheritance
+
+Combination of two or more inheritance types.
+
+---
