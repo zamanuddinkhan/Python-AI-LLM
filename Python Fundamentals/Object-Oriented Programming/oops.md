@@ -403,3 +403,191 @@ Multiple child classes inherit from one parent.
 Combination of two or more inheritance types.
 
 ---
+
+# Polymorphism
+
+## Definition
+
+Polymorphism means **one interface, multiple implementations**.
+
+The same method can perform different tasks depending on the object.
+
+### Advantages
+
+- Flexibility
+- Easy extension
+- Better maintainability
+- Code reusability
+
+---
+
+## Types of Polymorphism
+
+### Method Overriding
+
+A child class provides its own implementation of a method already defined in the parent class.
+
+### Syntax
+
+```python
+def method_name(self):
+    pass
+```
+
+---
+
+### Method Overloading
+
+Method overloading means creating multiple methods with the same name but different parameters.
+
+Python does not support true method overloading directly.
+
+It can be achieved using:
+
+- Default arguments
+- Variable-length arguments (`*args`, `**kwargs`)
+
+---
+
+# Abstraction
+
+## Definition
+
+Abstraction means hiding implementation details and exposing only essential functionality to the user.
+
+Python provides abstraction through the **abc (Abstract Base Class)** module.
+
+### Advantages
+
+- Hides complexity
+- Improves security
+- Reduces code duplication
+- Simplifies large applications
+
+### Syntax
+
+```python
+from abc import ABC, abstractmethod
+
+class ClassName(ABC):
+
+    @abstractmethod
+    def method_name(self):
+        pass
+```
+
+---
+
+# super() Function
+
+## Definition
+
+The **super()** function is used to access the parent class methods and constructor from the child class.
+
+### Advantages
+
+- Reuses parent functionality
+- Avoids duplicate code
+- Simplifies inheritance
+
+### Syntax
+
+```python
+super().method_name()
+```
+
+or
+
+```python
+super().__init__()
+```
+
+---
+
+# isinstance()
+
+## Definition
+
+Checks whether an object belongs to a particular class.
+
+### Returns
+
+- True
+- False
+
+### Syntax
+
+```python
+isinstance(object, ClassName)
+```
+
+---
+
+# issubclass()
+
+## Definition
+
+Checks whether one class is derived from another class.
+
+### Returns
+
+- True
+- False
+
+### Syntax
+
+```python
+issubclass(ChildClass, ParentClass)
+```
+
+---
+
+# Magic Methods (Dunder Methods)
+
+## Definition
+
+Magic methods are special methods surrounded by double underscores.
+
+They automatically perform predefined operations.
+
+Examples include:
+
+- `__init__()` → Constructor
+- `__str__()` → String representation
+- `__repr__()` → Official representation
+- `__len__()` → Length
+- `__add__()` → Addition
+- `__eq__()` → Equality comparison
+
+General Syntax
+
+```python
+def __method__(self):
+    pass
+```
+
+---
+
+# Advantages of OOP
+
+- Code Reusability
+- Easy Maintenance
+- Better Security
+- Modularity
+- Flexibility
+- Scalability
+- Easy Testing
+- Real-world Modeling
+- Improved Productivity
+
+---
+
+# Disadvantages of OOP
+
+- Requires more planning
+- Higher memory usage
+- Slightly slower execution
+- More complex for small programs
+- Learning curve for beginners
+
+---
