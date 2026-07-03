@@ -284,3 +284,64 @@ def method_name():
 ```
 
 ---
+
+# Encapsulation
+
+## Definition
+
+Encapsulation is the process of wrapping data and methods together into a single unit (class).
+
+It also controls direct access to data.
+
+### Advantages
+
+- Data hiding
+- Better security
+- Controlled access
+- Easier maintenance
+
+---
+
+## Access Specifiers
+
+Python provides three levels of access.
+
+### Public
+
+Accessible from anywhere.
+
+Syntax
+
+```python
+variable
+```
+
+---
+
+### Protected
+
+Accessible within the class and subclasses.
+
+Represented using a single underscore.
+
+Syntax
+
+```python
+_variable
+```
+
+---
+
+### Private
+
+Accessible only within the class.
+
+Represented using double underscores.
+
+Syntax
+
+```python
+__variable
+```
+
+---
