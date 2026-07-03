@@ -20,3 +20,13 @@
 
 10. What is inheritance? What are its advantages?
 
+11. Explain the different types of inheritance in Python.
+
+12. What is polymorphism? Explain method overriding with an example.
+
+13. Does Python support method overloading? If not, how can similar behavior be achieved?
+
+14. What is abstraction? Why is it important?
+
+15. What is an abstract class? What is an abstract method?
+
