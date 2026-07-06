@@ -591,3 +591,205 @@ def __method__(self):
 - Learning curve for beginners
 
 ---
+
+# Additional Important OOP Topics
+
+---
+
+# 1. Destructor
+
+## Definition
+
+A destructor is a special method that is automatically called when an object is about to be destroyed.
+
+## Characteristics
+
+- Automatically called before object destruction
+- Used to release resources
+- Performs cleanup tasks
+
+## Syntax
+
+```python
+def __del__(self):
+    pass
+```
+
+---
+
+# 2. Composition
+
+## Definition
+
+Composition is a relationship where one class contains an object of another class.
+
+It represents a **Has-A** relationship.
+
+## Characteristics
+
+- Strong relationship
+- Dependent objects
+- Promotes code reuse
+- Improves modularity
+
+## General Syntax
+
+```python
+class ClassB:
+    def __init__(self):
+        self.object = ClassA()
+```
+
+---
+
+# 3. Aggregation
+
+## Definition
+
+Aggregation is a relationship where one class uses another class, but both can exist independently.
+
+It also represents a **Has-A** relationship.
+
+## Characteristics
+
+- Weak relationship
+- Independent objects
+- Supports code reuse
+
+## General Syntax
+
+```python
+class ClassB:
+    def __init__(self, obj):
+        self.obj = obj
+```
+
+---
+
+# 4. Association
+
+## Definition
+
+Association is a relationship in which two independent classes communicate with each other.
+
+## Characteristics
+
+- Loose coupling
+- Independent objects
+- Temporary relationship
+
+## General Syntax
+
+```python
+class ClassB:
+    def method(self, obj):
+        pass
+```
+
+---
+
+# 5. Duck Typing
+
+## Definition
+
+Duck Typing is a feature of Python where the type of an object is less important than the methods it implements.
+
+"If it behaves like a duck, it is treated like a duck."
+
+## Characteristics
+
+- Behavior-based programming
+- No explicit inheritance required
+- Supports polymorphism
+
+---
+
+# 6. Method Resolution Order (MRO)
+
+## Definition
+
+Method Resolution Order (MRO) determines the order in which Python searches parent classes for a method during multiple inheritance.
+
+## Syntax
+
+```python
+ClassName.mro()
+
+ClassName.__mro__
+```
+
+---
+
+# 7. Property Decorator
+
+## Definition
+
+The `@property` decorator allows a method to be accessed like an attribute.
+
+## Advantages
+
+- Supports encapsulation
+- Provides controlled access
+- Makes code cleaner
+
+## Syntax
+
+```python
+@property
+def method_name(self):
+    pass
+```
+
+---
+
+# 8. Getter, Setter and Deleter
+
+## Getter Syntax
+
+```python
+@property
+def attribute(self):
+    pass
+```
+
+## Setter Syntax
+
+```python
+@attribute.setter
+def attribute(self, value):
+    pass
+```
+
+## Deleter Syntax
+
+```python
+@attribute.deleter
+def attribute(self):
+    pass
+```
+
+---
+
+# 9. IS-A and HAS-A Relationship
+
+## IS-A Relationship
+
+Established through **Inheritance**.
+
+### Examples
+
+- Car IS-A Vehicle
+- Dog IS-A Animal
+
+---
+
+## HAS-A Relationship
+
+Established through **Composition** or **Aggregation**.
+
+### Examples
+
+- Car HAS-A Engine
+- School HAS-A Teacher
+
+---
