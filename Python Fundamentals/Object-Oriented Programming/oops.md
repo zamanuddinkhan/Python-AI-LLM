@@ -674,7 +674,6 @@ Association is a relationship in which two independent classes communicate with 
 
 ## Characteristics
 
-- Loose coupling
 - Independent objects
 - Temporary relationship
 
