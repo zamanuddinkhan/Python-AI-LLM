@@ -269,9 +269,7 @@ def method_name(cls):
 
 ### Definition
 
-A static method does not depend on either object data or class data.
-
-It behaves like a normal function placed inside a class.
+A static method does not depend on either object data or class data. It behaves like a normal function placed inside a class.
 
 Uses the **@staticmethod** decorator.
 
@@ -289,9 +287,7 @@ def method_name():
 
 ## Definition
 
-Encapsulation is the process of wrapping data and methods together into a single unit (class).
-
-It also controls direct access to data.
+Encapsulation is the process of wrapping data and methods together into a single unit (class). It also controls direct access to data.
 
 ### Advantages
 
