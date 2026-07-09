@@ -855,3 +855,12 @@ Output:
 
 Data hiding restricts direct access to an object's data using private
 variables (`__variable`).
+
+## Public Variable
+
+``` python
+class Student:
+    def __init__(self):
+        self.name='Zaman'
+```
+
