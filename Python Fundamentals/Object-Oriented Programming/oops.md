@@ -846,3 +846,12 @@ Output:
   Shares nested objects      Copies nested objects
   Faster                     Slower
   Less memory                More memory
+
+---
+
+# Data Hiding (Name Mangling)
+
+## Definition
+
+Data hiding restricts direct access to an object's data using private
+variables (`__variable`).
