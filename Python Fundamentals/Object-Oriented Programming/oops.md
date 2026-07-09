@@ -918,3 +918,9 @@ Output:
 
     95
 
+## Advantages
+
+-   Protects sensitive data
+-   Prevents accidental modification
+-   Improves encapsulation
+-   Easier maintenance
