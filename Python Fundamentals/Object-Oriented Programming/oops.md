@@ -788,3 +788,61 @@ Established through **Composition** or **Aggregation**.
 - School HAS-A Teacher
 
 ---
+
+# Shallow Copy and Deep Copy
+
+## Definition
+
+When we copy an object in Python, there are two ways:
+
+1.  Shallow Copy
+2.  Deep Copy
+
+``` python
+import copy
+```
+
+## Shallow Copy
+
+A shallow copy creates a new object but shares nested objects.
+
+``` python
+import copy
+list1=[[10,20],[30,40]]
+list2=copy.copy(list1)
+list2[0][0]=100
+print(list1)
+print(list2)
+```
+
+Output:
+
+    [[100,20],[30,40]]
+    [[100,20],[30,40]]
+
+## Deep Copy
+
+A deep copy creates completely independent copies.
+
+``` python
+import copy
+list1=[[10,20],[30,40]]
+list2=copy.deepcopy(list1)
+list2[0][0]=100
+print(list1)
+print(list2)
+```
+
+Output:
+
+    [[10,20],[30,40]]
+    [[100,20],[30,40]]
+
+## Difference
+
+  Shallow Copy               Deep Copy
+  -------------------------- -----------------------
+  Copies outer object only   Copies entire object
+  Shares nested objects      Copies nested objects
+  Faster                     Slower
+  Less memory                More memory
