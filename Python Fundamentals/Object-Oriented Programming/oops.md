@@ -890,3 +890,31 @@ print(s.__marks)
 
 Raises AttributeError.
 
+## Name Mangling
+
+Python converts
+
+``` python
+__marks
+```
+
+to
+
+``` python
+_Student__marks
+```
+
+Example:
+
+``` python
+class Student:
+    def __init__(self):
+        self.__marks=95
+s=Student()
+print(s._Student__marks)
+```
+
+Output:
+
+    95
+
