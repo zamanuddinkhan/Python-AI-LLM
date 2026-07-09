@@ -872,3 +872,21 @@ class Student:
         self._roll=101
 ```
 
+## Private Variable
+
+``` python
+class Student:
+    def __init__(self):
+        self.__marks=95
+    def show(self):
+        print(self.__marks)
+```
+
+Direct access:
+
+``` python
+print(s.__marks)
+```
+
+Raises AttributeError.
+
