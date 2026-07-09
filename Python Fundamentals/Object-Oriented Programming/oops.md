@@ -864,3 +864,11 @@ class Student:
         self.name='Zaman'
 ```
 
+## Protected Variable
+
+``` python
+class Student:
+    def __init__(self):
+        self._roll=101
+```
+
