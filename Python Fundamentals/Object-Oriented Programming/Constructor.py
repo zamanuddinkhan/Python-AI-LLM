@@ -5,6 +5,7 @@ It is used to initialize (assign values to) the object's attributes.
 In Python, the constructor is named __init__().
 """
 
+# With Parameters
 class Student:
 
     def __init__(self, name, marks):
@@ -22,3 +23,9 @@ print(s2.name,s1.marks)
 Self: Self is a reference to the current object that is using the class. 
 It allows each object to store and access its own data.
 """
+
+# Without Constructor / Default Constructor
+# A constructor without parameters (other than self) is commonly called a default constructor
+class Student:
+    def __init__(self):
+        print("Default constructor")
