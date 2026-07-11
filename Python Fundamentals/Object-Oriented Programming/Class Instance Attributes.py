@@ -16,3 +16,18 @@ Syntax:
 class ClassName:
     def __init__(self, parameter):
         self.instance_attribute = parameter
+
+# Priority: Instance Attribute > Class Attribute
+
+# Example:
+class Student:
+    college_name = "ABC College"
+    name = "anonymous"      # Class attribute
+
+    def __init__(self, name, marks):
+        self.name = name    # Instance attribute > Class attribute
+        self.marks = marks
+        print("Adding new student in Database...")
+
+s1 = Student("Karan", 97)
+print(s1.name)
