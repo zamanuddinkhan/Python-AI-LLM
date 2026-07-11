@@ -5,7 +5,7 @@ A class attribute is a variable that belongs to the class and is shared by all o
 Syntax:
 """
 class ClassName:
-    class_attribute = value
+    class_attribute = "value"
 
 """
 Instance Attribute: An instance attribute is a variable that belongs to an object.
