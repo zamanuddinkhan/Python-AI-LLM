@@ -5,7 +5,7 @@ It is used to initialize (assign values to) the object's attributes.
 In Python, the constructor is named __init__().
 """
 
-# With Parameters
+# Parameterized Constructor
 class Student:
 
     def __init__(self, name, marks):
