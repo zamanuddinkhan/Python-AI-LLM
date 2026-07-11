@@ -5,8 +5,9 @@ It is used to initialize (assign values to) the object's attributes.
 In Python, the constructor is named __init__().
 """
 
-# Parameterized Constructor
 """
+Parameterized Constructor:
+A parameterized constructor is a constructor that receives values while creating an object.
 Syntax:
 class ClassName:
     def __init__(self, parameters):
@@ -32,8 +33,9 @@ It allows each object to store and access its own data.
 """
 
 """
-Default Constructor or Constructor Without Parameters
+Default Constructor or Constructor Without Parameters:
 A constructor without parameters (other than self) is commonly called a default constructor
+
 Syntax:
 class ClassName:
     def __init__(self):
