@@ -7,8 +7,8 @@ In Python, the constructor is named __init__().
 
 class Student:
 
-    def __init__(self, fullname):
-        self.name = fullname
+    def __init__(self, name):
+        self.name = name
         print("Adding new student")
 
 s1 = Student("Karan")
