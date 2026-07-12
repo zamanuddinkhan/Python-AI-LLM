@@ -9,9 +9,13 @@ class Student:
         self.marks = marks
 
     def avg(self):
-        average = (self.marks[0] + self.marks[1] + self.marks[2]) / 3
+        average = sum(self.marks) / len(self.marks)
         print("Name:", self.name)
         print("Average:", average)
         
 s = Student("Zaman",[92,90,80])
+s.avg()
+
+# We can change attribute value as well
+s.name = "Zamanuddin"
 s.avg()
