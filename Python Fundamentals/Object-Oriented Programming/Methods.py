@@ -32,3 +32,15 @@ Bank.show_bank()
 
 # @classmethod tells Python this is a class method.
 # cls refers to the class itself (just like self refers to an object).
+
+"""
+3. Static Methods: A static method is just a function placed inside a class for organization.
+It does not use: self, cls It behaves like a normal function, but lives inside the class.
+
+Example:
+"""
+class Math:
+    @staticmethod
+    def add(a,b):
+        return a + b
+print(Math.add(20,3))
