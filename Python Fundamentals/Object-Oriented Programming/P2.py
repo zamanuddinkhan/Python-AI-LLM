@@ -1,3 +1,8 @@
+"""
+Que2 : Create Account class with 2 Attributes - Balance & Account Number.
+Create methods for debit, credit and printing the balance.
+"""
+
 class Account:
     def __init__(self, bal, acc):
         self.bal = bal
