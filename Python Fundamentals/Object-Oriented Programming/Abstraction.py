@@ -14,3 +14,34 @@ class Car:
 
 c = Car()
 c.start()
+
+"""
+Abstract Class:
+A class that contains one or more abstract methods.
+It cannot be instantiated (you cannot create its object directly).
+
+Abstract Method:
+A method declared using @abstractmethod that has no implementation in the abstract class.
+Every child class must override it.
+"""
+
+from abc import ABC, abstractmethod
+
+# Abstract Class
+class Animal(ABC):
+
+    # Abstract Method
+    @abstractmethod
+    def sound(self):
+        pass
+
+
+# Child Class
+class Dog(Animal):
+    def sound(self):
+        print("Dog says: Bark")
+
+d = Dog()
+d.sound()
+
+# a = Animal()   # ❌ Error: Cannot create an object of an abstract class.
