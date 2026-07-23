@@ -1,6 +1,6 @@
 # 🐍 Python Fundamentals
 
-Welcome to the **Python Fundamentals** repository! This repository contains beginner-friendly Python programs and Jupyter notebooks covering the core concepts of Python programming. It is designed for students, beginners, and anyone who wants to build a strong foundation in Python.
+Welcome to the **Python Fundamentals** repository! This repository contains beginner-friendly Python programs and Jupyter notebooks covering the core concepts of Python programming.
 
 ---
 
