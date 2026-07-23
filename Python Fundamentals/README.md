@@ -84,8 +84,7 @@ Python Fundamentals/
 ├── Functions & Recursion/
 ├── File Handling/
 ├── Object-Oriented Programming/
-│
-├── Module1_Python_Fundamentals.ipynb
+├── Module1_Python_Fundamentals.ipynb/
 └── README.md
 ```
 
