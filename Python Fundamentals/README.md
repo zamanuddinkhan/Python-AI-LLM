@@ -111,9 +111,7 @@ After completing this repository, you will be able to:
 This repository is suitable for:
 
 - Beginners in Python
-- College Students
 - Self-learners
-- Programming Enthusiasts
 - Anyone preparing for Python interviews or coding practice
 
 ---
