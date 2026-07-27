@@ -103,9 +103,3 @@ This repository contains structured learning materials and notes from a comprehe
 * Work with modern AI frameworks and tools
 
 ---
-
-## ⭐ Acknowledgment
-
-This repository is part of my learning journey in AI and LLM engineering, focusing on practical implementation and real-world applications.
-
----
