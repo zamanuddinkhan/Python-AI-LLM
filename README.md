@@ -89,7 +89,8 @@ This repository contains structured learning materials and notes from a comprehe
 * LangChain
 * LangGraph
 * CrewAI
-* Jupyter Notebook / VS Code
+* VS Code
+* Jupyter Notebook
 
 ---
 
