@@ -6,14 +6,14 @@ Eg - "madam", "racecar" etc.
 [Hint - A palindrome string is equal to the reversed version of the string. We can
 use a loop to reverse the string manually. ]
 '''
-# Method 1:
+# Method 1 Using Slicing:
 str = input("Enter String: ")
 if (str == str[::-1]):
     print("Palindrome String")
 else:
     print("Not a Palindrome String")
 
-# Method 2:
+# Method 2 Actual Code as per Question:
 string = input("Enter String: ")
 reverse = ""
 
