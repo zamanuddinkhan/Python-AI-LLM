@@ -1,0 +1,4 @@
+This is the sample file
+to understand Python
+fundamentals of File Input Output
+using different operations
